@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+__pypackages__/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# Файлы IDE/редакторов
+.idea/
+.vscode/
+*.swp
