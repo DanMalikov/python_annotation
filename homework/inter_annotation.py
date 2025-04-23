@@ -31,20 +31,20 @@ def foo_empty_tuple(x: EmptyTuple):
 
 Q = TypeVar("Q")
 
-def add_generic1(*args: Q) -> Q:
-    pass
+def add_generic1(a: Q, b: Q) -> Q:
+    return a
 
 
 Z = TypeVar("Z", int, str)
 
-def add_generics2(*args: Z) -> Z:
-    ...
+def add_generics2(a: Z, b: Z) -> Z:
+    return a
 
 
 V = TypeVar("V", bound = int)
 
 def add_generics3(a: V) -> V:
-    ...
+    return a
 
 
 class Foo:
