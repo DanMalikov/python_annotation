@@ -12,7 +12,7 @@ jobs:
       with:
         python-version: 3.12
     - name: Install mypy
-      run: pip instsall mypy
+      run: pip install mypy
     - name: Run mypy
       run: mypy
       
