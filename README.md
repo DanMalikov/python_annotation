@@ -5,3 +5,12 @@
 
 *Результат выполнения задания*: 
 * выполнены два уровня сложности по работе с аннотацией типов Python - Basic, Intermediate
+* Добавлены Makefle, Dockerfile
+* Реализован pre-commit с проверкой mypy
+* Реализован Github Action с проверкой mypy
+
+## Инструкция
+* Для запуска проверки mypy при помощи Docker:
+```
+make typing
+```
