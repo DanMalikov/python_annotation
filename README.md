@@ -5,7 +5,7 @@
 
 *Результат выполнения задания*: 
 * выполнены два уровня сложности по работе с аннотацией типов Python - Basic, Intermediate
-* Добавлены Makefle, Dockerfile
+* Добавлены Makefile, Dockerfile
 * Реализован pre-commit с проверкой mypy
 * Реализован Github Action с проверкой mypy
 
